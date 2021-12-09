@@ -3,38 +3,152 @@ body{
 	font-family:Arial;
 }
 #baner1{
-
+	background-color: #FF99CC;
+	width: 10%;
+	height: 100px;
+	float: left;
 }
 #baner2{
-	
+	background-color: #FF99CC;
+	width: 15%;
+	height: 100px;
+	float: left;
 }
 #baner3{
-
+	background-color: #FF99CC;
+	width: 15%;
+	height: 100px;
+	float: left;
 }
 #baner4{
-	
+	background-color: #FF99CC;
+	width: 15%;
+	height: 100px;
+	float: left;
+}
+#baner5{
+	background-color: #FF99CC;
+	width: 15%;
+	height: 100px;
+	float: left;
 }
 #baner6{
-
+	background-color: #FF99CC;
+	width: 30%;
+	height: 100px;
+	float: left;
 }
 #lewa1{
-	
+	background-color:#6633FF ;
+	width: 200px;
+	height: 837px;
+	float: left;
 }
-#lewa2{
-	
-}
-#lewa3{
-	
-}
-#lewa4{
-	
-}
-#lewa5{
-	
-}
+
 #kontent{
-	
+	background-color:#9966FF;
+	font-family:Arial;
+}
+#kol1{
+
+}
+#kol2{
+
+}
+#kol3{
 	
 }
 
+img {
+	mix-blend-mode: multiply;
+}
+.wrapper {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  .guzik{
+	  text-decoration: none;
+	  text-align: center;
+	  color: #3cbabe;
+	  border: 2px solid #3cbabe;
+	  border-radius: 4px;
+	  position: relative;
+	  width: 150px;
+	  line-height: 40px;
+	  display: inline-block;
+	  font-family: Arial;
+	  font-weight: 600;
+	  overflow: hidden;
+	  position: absolute;
+	  top:3%;
+  }
+  .guzik:before {
+	  content: "";
+	  background-color: rgba(255,255,255,0.5);
+	  height: 100%;
+	  width: 40px;
+	  display: block;
+	  position: absolute;
+	  top: 0;
+	  left: -70px;
+	  transform: skewX(-45deg) translateX(0px);
+	  transition: none;
+	}
+  .guzik:hover{
+	  background-color: #3cbabe;
+	  color: #ffffff;
+	  border-bottom: 2px solid #319598;
+  }
+  
+  .guzik:hover:before{
+	  transform: skewX(-45deg) translateX(250px);
+	  transition: all 0.4s ease-in;
+  }
+*{
+	padding: 0;
+	margin: 0;
+}
 
+.search {
+	width: 100%;
+	position: relative;
+	display: flex;
+  }
+  
+  .searchTerm {
+	width: 100%;
+	border: 3px solid #00B4CC;
+	border-right: none;
+	padding: 5px;
+	height: 20px;
+	border-radius: 5px 0 0 5px;
+	outline: none;
+	color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+	color: #00B4CC;
+  }
+  
+  .searchButton {
+	width: 40px;
+	height: 36px;
+	border: 1px solid #00B4CC;
+	background: #00B4CC;
+	text-align: center;
+	color: #fff;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	font-size: 20px;
+  }
+  
+  .wrap{
+	width: 25%;
+	position: absolute;
+	top: 3%;
+	
+	
+  }
