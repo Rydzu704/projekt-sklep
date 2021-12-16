@@ -84,6 +84,7 @@ margin: 50px;
 	width: 200px;
 	float: left;
 	margin: 50px;
+	font-size: 1em;
 }
 
 
@@ -173,7 +174,10 @@ img {
 	top: 3%;
   }
   .Button{
-	width: 70px;  
-	background-color: #9DBFAF;
+	
+	width: 60px; 
+	height: 30px; 
+	background-color:deeppink;
 	float: right;
   }
+ 
